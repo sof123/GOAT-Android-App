@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="15dp"
+        android:text="\nGOAT Music Downloader needs YOUR help to stay on the market. Any donations are appreciated and can be sent to goatmusicdownloader@gmail.com through the link below. " />
+
+     <TextView
+         android:id="@+id/text3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/text2"
+         android:gravity="center"
+         android:linksClickable="true"
+         android:text="here" />
+
+</RelativeLayout>

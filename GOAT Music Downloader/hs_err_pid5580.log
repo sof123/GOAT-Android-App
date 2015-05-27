@@ -1,0 +1,108 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=5580, tid=5284
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_51-b13) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.51-b03 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002982800):  JavaThread "Unknown thread" [_thread_in_vm, id=5284, stack(0x00000000027b0000,0x00000000028b0000)]
+
+Stack: [0x00000000027b0000,0x00000000028b0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002982800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=5284, stack(0x00000000027b0000,0x00000000028b0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.010 loading class 0x00000000029c61e0 done
+Event: 0.011 loading class 0x00000000029c5c00 done
+Event: 0.011 loading class 0x00000000029c5be0
+Event: 0.011 loading class 0x00000000029cdce0
+Event: 0.011 loading class 0x00000000029cdce0 done
+Event: 0.011 loading class 0x00000000029cdd10
+Event: 0.011 loading class 0x00000000029cdd10 done
+Event: 0.011 loading class 0x00000000029cdd40
+Event: 0.011 loading class 0x00000000029cdd40 done
+Event: 0.011 loading class 0x00000000029c5be0 done
+
+
+Dynamic libraries:
+0x000007f7f8890000 - 0x000007f7f88c3000 	C:\Users\Simi_\Muse\bin\javaw.exe
+0x000007fc55150000 - 0x000007fc5530e000 	C:\Windows\SYSTEM32\ntdll.dll
+0x000007fc54a10000 - 0x000007fc54b47000 	C:\Windows\system32\KERNEL32.DLL
+0x000007fc521b0000 - 0x000007fc522a4000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fc52b00000 - 0x000007fc52bde000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fc52770000 - 0x000007fc528bc000 	C:\Windows\system32\USER32.dll
+0x000007fc4ff90000 - 0x000007fc501fa000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.16579_none_418ab7ef718b27ef\COMCTL32.dll
+0x000007fc550a0000 - 0x000007fc55145000 	C:\Windows\system32\msvcrt.dll
+0x000007fc52720000 - 0x000007fc52768000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fc52d90000 - 0x000007fc52ed5000 	C:\Windows\system32\RPCRT4.dll
+0x000007fc52be0000 - 0x000007fc52d21000 	C:\Windows\system32\GDI32.dll
+0x000007fc52530000 - 0x000007fc52569000 	C:\Windows\system32\IMM32.DLL
+0x000007fc54780000 - 0x000007fc54896000 	C:\Windows\system32\MSCTF.dll
+0x0000000050d80000 - 0x0000000050e52000 	C:\Users\Simi_\Muse\bin\msvcr100.dll
+0x0000000077830000 - 0x0000000077ff9000 	C:\Users\Simi_\Muse\bin\server\jvm.dll
+0x000007fc477c0000 - 0x000007fc477c9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x000007fc4bb90000 - 0x000007fc4bbb0000 	C:\Windows\SYSTEM32\WINMM.dll
+0x000007fc55090000 - 0x000007fc55097000 	C:\Windows\system32\PSAPI.DLL
+0x000007fc54b50000 - 0x000007fc54ba8000 	C:\Windows\system32\WS2_32.dll
+0x000007fc43a60000 - 0x000007fc43a93000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x000007fc54680000 - 0x000007fc54689000 	C:\Windows\system32\NSI.dll
+0x000007fc522b0000 - 0x000007fc522ff000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x000007fc52500000 - 0x000007fc52522000 	C:\Windows\system32\DEVOBJ.dll
+0x0000000050d70000 - 0x0000000050d7f000 	C:\Users\Simi_\Muse\bin\verify.dll
+0x0000000050d40000 - 0x0000000050d68000 	C:\Users\Simi_\Muse\bin\java.dll
+0x0000000050d20000 - 0x0000000050d35000 	C:\Users\Simi_\Muse\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Users\Simi_\Developer\adt-bundle-windows-x86_64-20140702\sdk\platforms\android-19\android.jar;C:\Users\Simi_\Developer\adt-bundle-windows-x86_64-20140702\sdk\add-ons\addon-google_apis-google-19-1\libs\effects.jar;C:\Users\Simi_\Developer\adt-bundle-windows-x86_64-20140702\sdk\add-ons\addon-google_apis-google-19-1\libs\usb.jar;C:\Users\Simi_\Developer\adt-bundle-windows-x86_64-20140702\sdk\add-ons\addon-google_apis-google-19-1\libs\maps.jar 
+java_command: com.example.activity2.SearchYoutube
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+USERNAME=Simi_
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 69 stepping 1, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, erms, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 8269656k(5096276k free), swap 16658264k(12616680k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.51-b03) for windows-amd64 JRE (1.7.0_51-b13), built on Dec 18 2013 18:40:56 by "java_re" with unknown MS VC++:1600
+
+time: Tue Aug 26 00:23:50 2014
+elapsed time: 0 seconds
+
